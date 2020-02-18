@@ -1,0 +1,55 @@
+
+                                                       /****Logo+Menu****/
+.resSoc{
+  float: right;
+  height:35px;
+    width: 35px;
+    position: relative;
+    margin-top: 20px;
+
+}
+.cd-auto-hide-header{position:fixed;z-index:20;top:0;left:0;width:100%;background-color:#fff;-webkit-transform:translateZ(0);transform:translateZ(0);will-change:transform;box-shadow:0 0 65px 20px #000;border-bottom:1px solid #fff}
+.cd-auto-hide-header::after{clear:both;content:"";display:block}
+ @media only screen and (min-width:1024px){
+  .cd-auto-hide-header{height:90px}
+  }
+.cd-auto-hide-header .logo,.cd-auto-hide-header .nav-trigger{position:absolute;top:50%;bottom:auto;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%)}
+.cd-auto-hide-header .logo{left:5%}
+.cd-auto-hide-header .logo a,.cd-auto-hide-header .logo img{display:block;height:100px}
+.cd-auto-hide-header .nav-trigger{display:table;height:100%;padding:0 1em;font-size:1.2rem;text-transform:uppercase;color:#25283D;font-weight:700;right:0}
+.cd-auto-hide-header .nav-trigger span{display:table-cell;vertical-align:middle}
+ .cd-auto-hide-header .nav-trigger em,.cd-auto-hide-header .nav-trigger em::after,.cd-auto-hide-header .nav-trigger em::before{
+                display:block;
+                position:relative;
+                height:2px;
+                width:22px;
+                background-color:#25283D;
+                -webkit-backface-visibility:hidden;
+                backface-visibility:hidden}
+.cd-auto-hide-header .nav-trigger em{margin:6px auto}
+.cd-auto-hide-header .nav-trigger em::before,.cd-auto-hide-header .nav-trigger em::after{position:absolute;content:'';left:0}
+.cd-auto-hide-header .nav-trigger em::before{-webkit-transform:translateY(-6px);-ms-transform:translateY(-6px);transform:translateY(-6px)}
+.cd-auto-hide-header .nav-trigger em::after{-webkit-transform:translateY(6px);-ms-transform:translateY(6px);transform:translateY(6px)}
+@media only screen and (min-width:1024px){.cd-auto-hide-header .nav-trigger{display:none}}
+.cd-secondary-nav{position:relative;z-index:1;clear:both;width:100%;background-color:#fff;-webkit-transform:translateZ(0);transform:translateZ(0);will-change:transform}
+.cd-secondary-nav::after{content:'';position:absolute;z-index:1;top:0;right:0;height:100%;width:35px;background:transparent;background:-webkit-linear-gradient(right,#fff,rgba(255,255,255,0));background:linear-gradient(to left,#fff,rgba(255,255,255,0))}
+.cd-secondary-nav ul,.cd-secondary-nav li,.cd-secondary-nav a{height:100%;padding:4px 5px 14px 0}
+.cd-secondary-nav ul{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;padding:0 5%;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.cd-secondary-nav ul::after{clear:both;content:"";display:block}
+.cd-secondary-nav li{display:inline-block;float:left;-webkit-flex-shrink:0;-ms-flex-negative:0;flex-shrink:0}
+.cd-secondary-nav li:last-of-type{padding-right:20px}
+.cd-secondary-nav a{font-weight: bold;font-size:28px;  display:block;color:#6F6F6F;line-height:30px;padding:0 .8em 0 .6em;border:solid 2px #EFEFEF;border-radius:50px;height:32px}
+.cd-secondary-nav a:before{position:relative;display:block;width:7px;margin:11px 9px 10px 0;float:left;height:7px;content:'';border-radius:50px;background-color:#6F6F6F}
+.sf-entry-meta-category a:before{position:relative;display:block;width:7px;margin:17px 9px 18px 0;float:left;height:7px;content:'';border-radius:50px;background-color:#6F6F6F}
+            .cd-secondary-nav li a.c-accueil:before{background-color:#1F69EC}
+            .cd-secondary-nav li a.c-traduction:before{background-color:#e84118}
+            .cd-secondary-nav li a.c-traducteur:before{background-color:#9c88ff}
+            .cd-secondary-nav li a.c-blog:before{background-color:#fbc531}
+            .cd-secondary-nav li a.c-recrutement:before{background-color:#4cd137}
+            .cd-secondary-nav li a.c-apropos:before{background-color:#00a8ff}
+ 
+.cd-secondary-nav li:last-child{padding-right:100px}
+@media only screen and (min-width:1024px){
+.cd-secondary-nav{height:50px;margin-top:90px;  overflow:visible}
+.cd-secondary-nav::after{width:calc(35px + 5%);background-image:-webkit-linear-gradient(to right,rgba(255,255,255,0),#fff 40%,#fff 60%);background-image:linear-gradient(to right,rgba(255,255,255,0),#fff 40%,#fff 60%)}
+.cd-secondary-nav a{line-height:30px}} 
